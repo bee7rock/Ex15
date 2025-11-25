@@ -3,6 +3,10 @@ html {
     color: rgb(255, 255, 255);
 }
 
+body {
+    margin: 0;
+}
+
 main {
     width: 75%;
     justify-self: center;
@@ -33,13 +37,18 @@ nav ol {
 nav a {
     text-decoration: none;
     color: white;
-    padding: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem
+}
+
+#linkatual {
+    font-style: italic;
+    text-decoration: underline solid white;
 }
 
 .teaser {
     width: 50%;
     padding: 1.5rem;
-    margin: 1.5rem;
     text-align: center;
     border: rgba(255, 255, 255, 0.082) dashed 3px;
 }
@@ -48,6 +57,6 @@ section {
     display: flex;
 }
 
-#linkatual {
-    font-style: italic;
+iframe {
+    border: solid white 2px;
 }
